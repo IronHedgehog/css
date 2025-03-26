@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.post {
+  width: 80%;
+  margin: 0 auto;
+
+  text-align: center;
+}
+.post-img {
+  width: 100%;
+  display: block;
+  height: auto;
+  border: 5px solid white;
+}
+
+.post-heading {
+  color: white;
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+}
+
+.post-description {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+}
